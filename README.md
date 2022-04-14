@@ -56,7 +56,22 @@ Username for 'https://github.com': john-eod
 Password for 'https://john-eod@github.com': [insert here toke] 
 
 ```
+[**ERRORS FIXING**]
 
+When the fatal error below appears, how to fix it ?  
+
+```
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+```
+### Fixing above fatal error
+
+```
+$ git remote add main https://github.com/rootoor-dev/projectrepo.git
+
+$ git push main 
+
+```
 ## Add ".gitignore" file to the root of the project
 
 ```
